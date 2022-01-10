@@ -1,0 +1,58 @@
+body {
+    font-family: 'Jost';
+    padding: 0;
+    margin: 0;
+    color: var(--black);
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.bg-set {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.s-padding {
+    padding: 125px 0;
+}
+
+.s-padding-bottom {
+    padding-bottom: 120px;
+}
+
+.s-title {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.text {
+    font-size: 15px;
+    color: var(--text);
+}
+
+
+.mb-15 {
+    margin-bottom: 15px;
+}
